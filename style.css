@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5% /*1 rem = 10 px; */
+}
+h1{
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+h2{
+    color: rgba(225, 225, 230, 1);
+    margin-bottom: 2.8rem;
+    font-family: Roboto, sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6.6rem;
+}
+
+.larger{
+    background-color: rgba(42, 33, 65, 1);
+    height: min-content;
+    border-radius: 1rem;
+}
+
+.two-players{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.mini{
+    background-color: rgba(42, 33, 65, 1);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 1rem;
+}
+
+.widget{
+    background-color: rgba(42, 33, 65, 1);
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    gap: 7.1rem;
+}
+
+.larger > img{
+    margin: 5.1rem 3.8rem 2.9rem;
+    padding-top: 2rem;
+}
+
+.larger > .text{
+    margin-left: 3.8rem;
+}
+
+.content > img{
+    width: 9.5rem;
+    height: 9.5rem;
+    margin: 2.8rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.content > .text{
+    margin: 5.8rem 0.4rem 2.8rem 0.4rem;
+}
+
+.box > .player{
+    gap: 5.1rem;
+}
+
+.content > .text > h1{
+    font-size: 2.5rem;
+}
+
+.content > .text > h2{
+    font-size: 2rem;
+}
+
+.mini > .box > .content > .text > h1{
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+
+.mini > .box > .content > .text > h2{
+    font-size: 2.5rem;
+}
+
+.widget > .box > .content > .text > h1{
+    font-size: 3rem;
+}
+
+.widget > .box > .content > .text > h2{
+    font-size: 2.5rem;
+}
+
+.widget > img{
+    width: 9.5rem;
+    margin: 2.8rem;
+}
+
+.timer{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 17.5rem;
+    justify-content: center;
+}
+
+p{
+    color: rgb(151, 151, 151);
+    font-size: 2rem;
+    padding-bottom: 3.1rem;
+}
+
+.box > .timer{
+    gap: 26.5rem
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+}
+
+.widget > .box > .player{
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5.1rem;
+}
+
+.progress-bar-1{
+    background-color: rgb(56, 54, 54);
+    width: 80%;
+    height: 0.7rem;
+    border-radius: 1rem;
+    margin: 3rem auto 1.8rem auto;
+}
+
+.progress-bar-2{
+    background-color: rgb(151, 151, 151);
+    width: 90%;
+    height: 0.7rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.larger > .timer > p{
+    padding-bottom: 7.4rem;
+}
+
+.box > .progress-bar-1{
+    width: 85%;
+}
+
+.box > .progress-bar-2{
+    width: 95%;
+}
+
+.box > .timer > p{
+    justify-content: space-between;
+}
